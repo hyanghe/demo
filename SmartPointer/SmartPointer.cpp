@@ -23,6 +23,11 @@ int main()
 	*r = 3.1415926;
 	std::cout << "r points to: " << *r << '\n';
 
+	//More code
+	SmartPointer_Template<long long> l(new long long());
+	*l = 123456789;
+	std::cout << "l points to: " << *l << '\n';
+
 
 }
 
